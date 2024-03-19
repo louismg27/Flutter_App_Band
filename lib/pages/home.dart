@@ -30,7 +30,9 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.white,
         elevation: 8,
         centerTitle: true,
+
       ),
+
       body: ListView.builder(
           itemCount: bands.length,
           itemBuilder: (BuildContext context, int index) {
